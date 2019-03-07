@@ -1,0 +1,37 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #2aabe2;
+  }
+  #friend-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 1.2em;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #friend-form{
+    width: 271px;
+    margin: 0 auto;
+  }
+  .form-column {
+    width: 133px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  #friend-form > input {
+    display: block;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding: 6px;
+  }
+  li:nth-child(odd){
+    background: #eee;
+  }
